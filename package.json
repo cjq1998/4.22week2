@@ -1,0 +1,27 @@
+{
+  "name": "4.22week2",
+  "version": "1.0.0",
+  "description": "周考2",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjq1998/4.22week2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjq1998/4.22week2/issues"
+  },
+  "homepage": "https://github.com/cjq1998/4.22week2#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

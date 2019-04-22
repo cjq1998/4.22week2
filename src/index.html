@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="scss/index.css">
+	</head>
+
+	<body>
+		<script src="js/libs/flexible.js"></script>
+		<div class="wrapper">
+			<div class="header">
+				<span>收入</span>
+				<span>支出</span>
+			</div>
+			<div class="main">
+				<div class="gun">
+					<div class="cont">
+						<label for="">金额：aa</label>
+					     <br/>
+						<label for="">时间：bb</label>
+						<br/>
+						<label for="">备注：cc</label>
+						<br/>
+						<label for="">成员：dd</label>
+					</div>
+					<button type="btn" class="btn">编辑</button><button type="btn">删除</button><button type="btn" class="add">添加</button>
+				</div>
+			</div>
+			<div class="footer"></div>
+		</div>
+		<script src="js/libs/require.js"></script>
+		<script>
+			require(["main"],()=>{
+				require(["index"])
+			})
+			
+		</script>
+	</body>
+
+</html>
